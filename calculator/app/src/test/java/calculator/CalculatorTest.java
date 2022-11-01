@@ -16,7 +16,12 @@ public class CalculatorTest {
 
   @Test public void testMultiplysTenAndTen() {
     Calculator calc = new Calculator();
-    assertEquals("10 * 10 must equal 100", Integer.valueOf(10), calc.multiply(10, 10));
+    assertEquals("10 * 10 must equal 100", Integer.valueOf(100), calc.multiply(10, 10));
+  }
+
+  @Test public void testDividesTwentyByFive() {
+    Calculator calc = new Calculator();
+    assertEquals("20 /  5 must equal 4", Integer.valueOf(4), calc.divide(20, 5));
   }
   
 }
