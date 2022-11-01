@@ -19,5 +19,10 @@ public class Calculator {
         return sum;
     }
 
+    public Integer divide(Integer int1, Integer int2) {
+        Integer sum = int1 / int2;
+        return sum;
+    }
+
     
 }
