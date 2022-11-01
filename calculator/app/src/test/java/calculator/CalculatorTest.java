@@ -13,5 +13,10 @@ public class CalculatorTest {
     Calculator calc = new Calculator();
     assertEquals("2 + 2 should equal 4", Integer.valueOf(4), calc.add(2, 2));
   }
+
+  @Test public void testMultiplysTenAndTen() {
+    Calculator calc = new Calculator();
+    assertEquals("10 * 10 must equal 100", Integer.valueOf(10), calc.multiply(10, 10));
+  }
   
 }
