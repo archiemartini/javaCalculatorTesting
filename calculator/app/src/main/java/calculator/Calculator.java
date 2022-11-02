@@ -11,7 +11,7 @@ public class Calculator {
             return int1 / int2;
         }
         float sum = Float.valueOf(int1) / Float.valueOf(int2);
-        return Math.round(sum * 1000.0) / 1000.0;
+        return Math.round(sum * 100000.0) / 100000.0;
     }
 
     public Integer add(Integer int1, Integer int2) {

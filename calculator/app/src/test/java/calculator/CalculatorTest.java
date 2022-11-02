@@ -26,7 +26,7 @@ public class CalculatorTest {
 
   @Test public void testForHandlingFloats() {
     Calculator calc = new Calculator();
-    assertEquals("10 / 3 must return .333... float", Double.valueOf(3.333), calc.divide(10, 3));
+    assertEquals("10 / 3 must return .333... float", Double.valueOf(3.33333), calc.divide(10, 3));
   }
   
 }
